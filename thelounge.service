@@ -6,7 +6,7 @@ SyslogIdentifier=thelounge
 User=thelounge
 WorkingDirectory=/srv/thelounge
 PIDFile=/srv/lounge/pid
-Environment="PATH=/bin:/usr/bin:/srv/thelounge/.local/bin" "THELOUNGE_HOME=/srv/thelounge"
+Environment="PATH=/bin:/usr/bin:/srv/thelounge/.npm-global/bin" "THELOUNGE_HOME=/srv/thelounge"
 Restart=on-failure
 RestartSec=1s
 
